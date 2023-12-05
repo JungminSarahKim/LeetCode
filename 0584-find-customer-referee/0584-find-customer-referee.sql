@@ -1,3 +1,3 @@
 select name
-from  Customer
+from Customer
 where ifnull(referee_id, 0) <> 2
